@@ -6,7 +6,8 @@ const mongoose = require('mongoose')
 var app = express()
 var Data = require('./dataSchema')
 
-mongoose.connect("mongodb+srv://dbUser1:Admin00@gwcluster-08092020.1ebxg.mongodb.net/nba2021?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://<cluster_name>.mongodb.net/<db_name>?retryWrites=true&w=majority")
+//replace <> by : MONGODB cluster name and db name 
 
 
 mongoose.connection.once("open", () => {
