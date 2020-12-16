@@ -18,6 +18,17 @@ The tools used are: <br>
 - NodeJS: JavaScript runtime Server
 - Express JS: js framework for web app development
 - Mongoose: object Mapping library for Mongodb
+- IDE: VSCode
+- Postman
+
+## Workflow
+
+Let's say the MongoDB atlas cluster is set and run correctly, a databse is created in Mongodb, and if needed, some documents data are already stored in ths database.<br>
+The work includes the steps below: 
+- set the connection to the mongodb atlas database
+- for each API, implement the data schemas
+- implement the CRUD operations: CREATE DELETE UPDATE READ
+- testing: run the node js server, and use POSTMAN to test each api operations
 
 ## Scheme
 ...
